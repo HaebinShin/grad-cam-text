@@ -1,0 +1,6 @@
+word2vec/*
+ckpt/*
+__pycache__
+.ipynb_checkpoints/
+
+!.gitkeep

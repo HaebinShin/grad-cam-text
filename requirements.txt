@@ -1,0 +1,5 @@
+tensorflow>=1.4
+configargparse
+matplotlib
+gensim
+numpy
