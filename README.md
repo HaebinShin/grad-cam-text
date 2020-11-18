@@ -2,7 +2,7 @@
 
 This is implementation of [Grad-CAM][grad-cam] for text classification model. The model used is 1D-CNN for text classification which was introduced in [Yoon Kim (2014)][yoon-kim]. The data used are re-fined version of [Stanford Sentimental Treebank][sst] which re-labeled for binary classification. Input feature is slim version of word2vec.
 
-It especially requires python >= 3, tensorflow >= 1.4 (tf.data.Dataset, tf.estimator.Estimator).
+It especially requires python>=3, tensorflow>=1.4,<2.0 (requires tf.data.Dataset and tf.estimator.Estimator, but not support TF2).
 
 <img src="visualize_sample.png" width="70%" height="70%" />
 
